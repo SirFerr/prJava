@@ -3,7 +3,6 @@ import java.util.Scanner;
 import java.util.Stack;
 public class Stack1 {
 
-
     public static void Stack() {
         Scanner in = new Scanner(System.in);
         int[] a1 = {1, 3, 5, 7, 9};
