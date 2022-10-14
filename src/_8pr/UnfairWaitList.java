@@ -1,14 +1,13 @@
 package _8pr;
 
-public class UnfairWaitList<E> {
+public class UnfairWaitList<E> extends WaitList<E>{
 
-    public UnfairWaitList(){};
-
-    public void remove(E element) {
-
+    public E remove() {
+       return deque.remove();
     }
 
     public void moveToBack(E element){
-
+        deque.remove(element);
+        deque.add(element);
     }
 }

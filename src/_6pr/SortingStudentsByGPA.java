@@ -3,7 +3,7 @@ package _6pr;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class SortingStudentsByGPA implements Comparator {
+public class SortingStudentsByGPA {
     public SortingStudentsByGPA() {
         System.out.println("Quick");
         System.out.println(Arrays.toString(IDNumber));
