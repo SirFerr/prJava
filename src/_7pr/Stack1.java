@@ -4,7 +4,7 @@ import java.util.Stack;
 public class Stack1 {
 
     public static void Stack() {
-        Scanner in = new Scanner(System.in);
+//        Scanner in = new Scanner(System.in);
         int[] a1 = {1, 3, 5, 7, 9};
         int[] a2 = {2, 4, 6, 8, 0};
         Stack<Integer> d1 = new Stack<Integer>(),
@@ -15,7 +15,7 @@ public class Stack1 {
         for (int i = 0; i < 5; i++) {
             d2.add(a2[i]);
         }
-        in.close();
+//        in.close();
         int count = 0;
         boolean res = false;
 
