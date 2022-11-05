@@ -5,8 +5,8 @@ public class Stack1 {
 
     public static void Stack() {
 //        Scanner in = new Scanner(System.in);
-        int[] a1 = {1, 3, 5, 7, 9};
-        int[] a2 = {2, 4, 6, 8, 0};
+        int[] a1 = {1, 3, 5, 7, 2};
+        int[] a2 = {2, 4, 9, 8, 0};
         Stack<Integer> d1 = new Stack<Integer>(),
                 d2 = new Stack<Integer>();
         for (int i = 0; i < 5; i++) {
